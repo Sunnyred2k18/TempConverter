@@ -23,15 +23,14 @@ const ParentComponent = () => {
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-sm-4">
-          
           <form>
             <Temperature
-            unit="Farenheit"
+              unit="Farenheit"
               temperature={fahrenheit}
               onTemperatureChange={handleFahrenheitChange}
             />
             <Temperature
-            unit="Celsius"
+              unit="Celsius"
               temperature={celsius}
               onTemperatureChange={handleCelsiusChange}
             />

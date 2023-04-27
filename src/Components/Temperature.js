@@ -3,11 +3,10 @@ import React from "react";
 
 const Temperature = ({ temperature, onTemperatureChange, unit }) => {
   return (
-  
+
     <div className="form-group" >
       <label htmlFor="temperature-input">{`Temperature (${unit})`}</label>
       <div className="input-group">
-      
         <input
           type="number"
           id="temperature-input"
@@ -20,7 +19,7 @@ const Temperature = ({ temperature, onTemperatureChange, unit }) => {
         </div>
       </div>
     </div>
-   
+
   );
 };
 
